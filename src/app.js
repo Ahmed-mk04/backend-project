@@ -7,7 +7,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 const connectDB = require('./config/db');
 
-// Load env vars
+// Load env vars+
 dotenv.config();
 
 // Connect to database
